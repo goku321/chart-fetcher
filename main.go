@@ -19,7 +19,7 @@ func main() {
 	}
 	count, err := strconv.ParseInt(os.Args[2], 10, 32)
 	if err != nil {
-		fmt.Printf("count should be an integer\n")
+		fmt.Printf("invalid argument: count should be an integer\n")
 		os.Exit(1)
 	}
 	f := chart.NewFetcher(os.Args[1], int(count))
