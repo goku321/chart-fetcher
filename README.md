@@ -2,7 +2,7 @@
 
 ## How To Run
 
-1. `go get github.com/goku321/chart-fetcher`
+1. `go get github.com/goku321/fetcher`
 
 2. `make build`
 
