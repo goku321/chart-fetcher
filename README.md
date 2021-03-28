@@ -8,6 +8,12 @@
 
 3. `./chart-fetcher <url> <count>`
 
+
+    Example:
+    ```
+    ./chart-fetcher https://www.imdb.com/india/top-rated-indian-movies/ 2
+    ```
+
 ## How to Run Test
 
 `make test`
